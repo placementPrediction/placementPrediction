@@ -28,7 +28,7 @@ clf_entropy=''
 
 # Function to import Dataset 
 def importdata(): 
-    balance_data = pd.read_csv('C:\\ML related\\Placement-prediction-system-using-ML-algos-master\\Placement-prediction-system-using-ML-algos-master\\PREDICTION-Logistic Regression\\finalplacementdata3.csv') 
+    balance_data = pd.read_csv('finalplacementdata3.csv') 
     
     # Printing the dataset shape 
     print ("Dataset Length: ", len(balance_data)) 
